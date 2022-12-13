@@ -1,0 +1,52 @@
+$body-bg: #212527;
+$main-bg: #1f2123;
+$white: #fff;
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $body-bg;
+}
+.App {
+    padding: 1rem 0;
+    position: relative;
+    color: $white;
+    .c-search{
+        position: sticky;
+        top: 1rem;
+        background-color: $main-bg;        
+        margin: 1.5rem 0.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 1.75rem;
+        border-radius: 2rem;
+        color: $white;
+        input {
+            flex: 1 1;
+            border: none;
+            font-size: 1.2rem;
+            outline: none;
+            color: $white;
+            background: $main-bg;
+        }
+        img {
+            width: 30px;
+            height: 30px;            
+        }
+    }    
+    .c-giphy{
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 15px 15px;
+    }
+    .error{
+        color: $white;
+        background-color: orangered;
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+}
+
